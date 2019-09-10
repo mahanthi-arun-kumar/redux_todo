@@ -1,0 +1,6 @@
+export const ADD_TASK = 'ADD_TASK';
+export const DELETE_TASK = 'DELETE_TASK';
+export const DUPLICATE_TASK = 'DUPLICATE_TASK';
+export const SELECT_TASKS = 'SELECT_TASKS';
+export const DESELECT_TASKS = 'DESELECT_TASKS';
+export const DELETESELECTED_TASKS = 'DELETESELECTED_TASKS';

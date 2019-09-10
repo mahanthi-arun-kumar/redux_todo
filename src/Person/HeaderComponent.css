@@ -1,0 +1,20 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0px 28px 0px;
+ background: #d07575;
+ 
+}
+.newTask { 
+  flex-grow: 2;
+   outline: none;
+  
+ }
+ button {
+  border:1px solid blue;
+  background:#8BC34A;
+  font-size: 15px;
+  cursor: pointer; 
+  color:#2196F3; 
+  outline: none;
+}

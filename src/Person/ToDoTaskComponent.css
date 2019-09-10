@@ -1,0 +1,28 @@
+.listItem
+{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0px solid #eee;
+  background: rgb(155, 147, 147);
+}
+button {
+  border:1px solid blue;
+  background:#8BC34A;
+  font-size: 15px;
+  cursor: pointer; 
+  color:#2196F3; 
+  outline: none;
+}
+button:hover { 
+  color:red;
+}
+
+.listItem > .listItemLabel {
+  height: 24px;
+  font-size: 18px;
+  flex-grow: 2;
+  padding: 0 0 0 11px;
+}
+.listItem:nth-child(odd) {
+  background: #25aebf;
+}
