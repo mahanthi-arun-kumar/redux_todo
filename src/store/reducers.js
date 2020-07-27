@@ -7,7 +7,6 @@ export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.ADD_TASK: {
       console.log(action.input);
-
       let task = {};
       task.id = Math.random();
       task.input = action.input;

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, PureComponent } from 'react';
 import Header from './Components/HeaderComponent'
 import ToDoTaskComponent from './Components/ToDoTaskComponent';
 import { connect } from 'react-redux';
 import * as actionTypes from './store/actions'
-class App extends Component {
+class App extends PureComponent {
 
   render() {
     console.log(this.props);
@@ -38,7 +38,7 @@ const mapStateToProps = state => {
     tasks: state.tasks
   }
 }
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = dispatch => { //called evreytime whenever state changes in the store
 
   //console.log(task);
   return {
